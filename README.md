@@ -13,6 +13,7 @@ This repository hosts proposed specifications and research documentation for Sem
 | v0.3 | [Natural-Language-Centric Semantic Exchange (日本語)](docs/SKI_v0.3_Natural_Language_Centric_Semantic_Exchange_ja.md) | Independent Editor's Draft — 2026-10-19 |
 | v0.4 | [Distributed Semantic Identity & Replica Registry (日本語)](docs/SKI_v0.4_Distributed_Semantic_Identity_Replica_Registry_ja.md) | Proposal Draft — 2026-10-19 |
 | v0.5 | [Natural-Language Dataset Roundtrip & Correlation (日本語)](docs/SKI_v0.5_Semantic_Dataset_Roundtrip_Interchange_ja.md) | Independent Editor's Draft — 2026-10-21 |
+| v0.5 Addendum | [Dialogue & Learning Datasets (日本語)](docs/SKI_v0.5_Dialogue_and_Learning_Datasets_ja.md) | Draft Addendum — 2026-11-05 |
 
 ### Scope
 - **SKI v0.1:** common knowledge assertions, context, provenance, epistemic assessment, revision, retraction, portability, and exchange profiles.
@@ -20,6 +21,7 @@ This repository hosts proposed specifications and research documentation for Sem
 - **SKI v0.3:** Exchange meaning via natural language and structured claims; each recipient generates local vectors as needed. Preserves v0.2 synchronization and lifecycle.
 - **SKI v0.4 (proposal):** Bidirectional replica identification and origin lineage across multiple recipient Semantic Memories with per-VM local IDs, acknowledgements, and versioned replica registries.
 - **SKI v0.5 (proposal):** SEMOS_S2N-derived Dataset A/B same-message-format roundtrip, receipt ACK separate from semantic replies, LLM identifiers, correlation, hashes, receiver-local re-semantification, and independent quality evaluation.
+- **SKI v0.5 addendum:** Two application dataset types: DIALOGUE for conversation turns and LEARNING for explicit question/answer pairs. Dataset A/B continues to designate transport direction, not dataset type.
 
 These specifications are **research proposals**, not standards approved by ISO, W3C, JIS or another standards body. Reference implementations, canonical JSON-LD contexts, SHACL validation and conformance suites remain future work.
 
