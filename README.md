@@ -11,6 +11,8 @@ This repository hosts proposed specifications and research documentation for Sem
 | v0.1 | [Semantic Knowledge Interchange Specification (日本語)](docs/SKI_SPECIFICATION_v0.1_ja.md) | Independent Editor's Draft — 2026-10-18 |
 | v0.2 | [Core Data Model, Lifecycle & Distributed Synchronization (日本語)](docs/SKI_v0.2_Core_Data_Model_Lifecycle_Distributed_Synchronization_ja.md) | Independent Editor's Draft — 2026-10-19 |
 
+| v0.14 diagnostic profile (experimental) | [SKI Diagnostic Response Profile](docs/SKI_Diagnostic_Response_Profile_v0.14_ja.md) | Optional SKI v0.5 Dataset B profile; not a new canonical standard |
+
 ### Scope
 - **SKI v0.1:** common knowledge assertions, context, provenance, epistemic assessment, revision, retraction, portability, and exchange profiles.
 - **SKI v0.2:** SKI-Core/SDF, assertion lifecycle, independent Semantic Memory per VM, differential and idempotent synchronization, internalization tracking for `/sleep`, and TCP/TLS with optional RDMA transport.
